@@ -1,20 +1,21 @@
+import NavBar from '@/Components/NavBar/Index'
+import ContetMovies from '@/Components/ContentMovies/Index'
+import CardFooter from '@/Components/CardFooter/Index'
+
 export default function Home() {
+  
   return (
     <>
       <header>
-        <nav className="container_nav-bar container">
-          <h1>Logo</h1>
-          <ul className="conatiner_nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Movies</a></li>
-            <li><a href="">Series</a></li>
-          </ul>
-        </nav>
+        <NavBar />
       </header>
-      {/* <main>
+      <main>
+        <ContetMovies subtitle="Tentencias do dia" />
+        <ContetMovies subtitle="Filmes Recomendados" />
+        <ContetMovies subtitle="Series do Dia" />
+        <ContetMovies subtitle="Os mais assistidos" />
       </main>
-      <footer>
-      </footer> */}
+      <CardFooter />
     </>
   );
 }
