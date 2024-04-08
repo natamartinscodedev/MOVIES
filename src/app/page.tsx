@@ -9,7 +9,7 @@ export default function Home() {
       <header>
         <NavBar />
       </header>
-      <main>
+      <main className='container container_main'>
         <ContetMovies subtitle="Tentencias do dia" />
         <ContetMovies subtitle="Filmes Recomendados" />
         <ContetMovies subtitle="Series do Dia" />

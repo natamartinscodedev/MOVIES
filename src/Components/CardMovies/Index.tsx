@@ -3,7 +3,9 @@ import React from 'react'
 const Index = ({ title }: any) => {
 
   return (
-    <div>{title}</div>
+    <div className='card_movies'>
+      {title}
+      </div>
   )
 }
 

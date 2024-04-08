@@ -1,0 +1,22 @@
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container_footer-card-infos {
+
+    div:nth-child(1) {
+        display: flex;
+        align-items: center;
+
+        justify-content: space-between;
+    }
+}
+
+.container_footer-card-directs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}

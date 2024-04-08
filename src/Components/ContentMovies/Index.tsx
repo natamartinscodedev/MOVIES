@@ -14,15 +14,37 @@ const Index = ({ subtitle }: any) => {
         {
             title: 'Movie 04'
         },
+        {
+            title: 'Movie 05'
+        },
+        {
+            title: 'Movie 06'
+        },
+        {
+            title: 'Movie 07'
+        },
+        {
+            title: 'Movie 08'
+        },
+        {
+            title: 'Movie 09'
+        },
+        {
+            title: 'Movie 10'
+        },
+
     ]
+
     return (
         <div>
             <h2>{subtitle}</h2>
-            {
+           <div className='contaier_movies-cards'>
+           {
                 test.map(mv => (
                     <CardMovies key={mv.title} title={mv.title} />
                 ))
             }
+           </div>
         </div>
     )
 }
